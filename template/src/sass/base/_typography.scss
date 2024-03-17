@@ -1,0 +1,46 @@
+// Media Queries For Font-Sizes 
+:root {
+     --fs-h1: 1.9rem;
+     --fs-h2: 1.5rem;
+     --fs-h3: 1.15rem;
+
+    --fs-200: 0.7rem;
+    --fs-300: 0.8rem;
+    --fs-400: 0.875rem;
+
+    --fs-500-1rem: 1rem;
+
+    --fs-600: 1.125rem;
+    --fs-700: 1.5rem;
+    --fs-800: 2.25rem;
+    --fs-900: 2.625rem;
+    --fs-1000: 3rem;
+}
+
+@media (width < 660px) {
+    :root {
+        --fs-h1: 1.8rem;
+        --fs-h2: 1.4rem;
+        --fs-h3: 1.05rem;
+        
+        --fs-200: 0.7rem;
+        --fs-300: 0.8rem;
+        --fs-400: 0.825rem;
+
+        --fs-500-1rem: .9rem;
+
+        --fs-600: 1.025rem;
+        --fs-700: 1.4rem;
+        --fs-800: 2.15rem;
+        --fs-900: 2.525rem;
+        --fs-1000: 2.9rem;
+    }
+}
+
+// @media (width < 460px) {
+//     :root {}
+// }
+
+.h1 { font-size: var(--fs-h1); }
+.h2 { font-size: var(--fs-h2); }
+.h3 { font-size: var(--fs-h3); }
